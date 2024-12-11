@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botón Personalizado</title>
+    <style>
+        .custom-button {
+            background-color: #3498db; /* Color de fondo */
+            color: white; /* Color del texto */
+            border: none; /* Sin borde */
+            padding: 10px 20px; /* Espaciado interno */
+            text-align: center; /* Centrado del texto */
+            text-decoration: none; /* Sin subrayado */
+            display: inline-block; /* Para usar como botón */
+            font-size: 16px; /* Tamaño de fuente */
+            font-weight: bold; /* Negrita */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambiar el cursor a mano al pasar */
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Animación al interactuar */
+        }
+
+        .custom-button:hover {
+            background-color: #2980b9; /* Color al pasar el mouse */
+            transform: scale(1.05); /* Ligeramente más grande */
+        }
+
+        .custom-button:active {
+            background-color: #1c5d86; /* Color al hacer clic */
+            transform: scale(0.95); /* Ligeramente más pequeño */
+        }
+    </style>
+</head>
+<body>
+    <button class="custom-button">Haz clic aquí</button>
+</body>
+</html>

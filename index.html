@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Vibrante</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff9a9a, #ffffff);
+            color: #fff;
+            text-align: center;
+        }
+
+        table{
+            margin: auto;
+        }
+
+        p, li, tr, td {
+            text-align: center;
+        }
+
+       
+        header {
+            text-align: center;
+            padding: 20px 10px;
+            background: #ff385c;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        
+        .content {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            justify-content: center;
+
+        }
+
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #742b2b;
+            justify-content: center;
+        }
+
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #fff;
+            justify-content: center;
+        }
+
+        
+        .floating-images img {
+            position: fixed;
+            width: 150px;
+            height: auto;
+            z-index: 10;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        .floating-images .left {
+            top: 30%;
+            left: 3%;
+            animation-delay: 0s;
+        }
+        
+        .floating-images .extra3 {
+            top: 70%;
+            left: 3%;
+            animation-delay: 0s;
+        }
+
+        .floating-images .right {
+            top: 30%;
+            right: 3%;
+            animation-delay: 2s;
+        }
+       
+        
+        .floating-images .extra4 {
+            top: 70%;
+            right: 3%;
+            animation-delay: 2s;
+        }
+        .custom-button {
+            background-color: #3498db; /* Color de fondo */
+            color: white; /* Color del texto */
+            border: none; /* Sin borde */
+            padding: 10px 20px; /* Espaciado interno */
+            text-align: center; /* Centrado del texto */
+            text-decoration: none; /* Sin subrayado */
+            display: inline-block; /* Para usar como botón */
+            font-size: 16px; /* Tamaño de fuente */
+            font-weight: bold; /* Negrita */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambiar el cursor a mano al pasar */
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Animación al interactuar */
+        }
+
+        .custom-button:hover {
+            background-color: #2980b9; /* Color al pasar el mouse */
+            transform: scale(1.05); /* Ligeramente más grande */
+        }
+
+        .custom-button:active {
+            background-color: #1c5d86; /* Color al hacer clic */
+            transform: scale(0.95); /* Ligeramente más pequeño */
+        }
+
+        /* Animación de las imágenes */
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .floating-images img {
+                width: 70px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My experience during the practice</h1>
+    </header>
+
+    <div class="content">
+        <h2>Bienvenido a mi Blog</h2>
+        <p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+<div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+    <ol style="margin-bottom:0cm;list-style-type: decimal;">
+        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='line-height:107%;font-family:"Arial",sans-serif;font-size:13px;color:black;'>INFORMACI&Oacute;N GENERAL</span></strong></li>
+    </ol>
+</div>
+<table style="border-collapse: collapse;border: none;width: 671px;">
+    <tbody>
+        <tr>
+            <td colspan="2" style="width:241.05pt;border:solid windowtext 1.0pt;background:#ED7D31;padding:0cm 5.4pt 0cm 5.4pt;height:23.5pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:white;'>DATOS UNIDAD GESTORA UNAD</span></strong></p>
+            </td>
+            <td colspan="2" style="width:262.5pt;border:solid windowtext 1.0pt;border-left:none;background:#ED7D31;padding:0cm 5.4pt 0cm 5.4pt;height:23.5pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:white;'>DATOS CONTRAPARTE</span></strong></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:113.45pt;border:solid windowtext 1.0pt;border-top:  none;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:29.45pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Zona</span></strong></p>
+            </td>
+            <td style="width:127.6pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:29.45pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>ZAO</span></p>
+            </td>
+            <td style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:29.45pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Nombre de la Entidad</span></strong></p>
+            </td>
+            <td style="width:163.3pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:29.45pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Liceo Pedag&oacute;gico Mentes Creativas</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:113.45pt;border:solid windowtext 1.0pt;border-top:  none;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:27.8pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Unidad de Gesti&oacute;n </span></strong><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Centro, Unidad, Oficina o Escuela</span></p>
+            </td>
+            <td style="width:127.6pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:27.8pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Acacias</span></p>
+            </td>
+            <td style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:27.8pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:  "Arial",sans-serif;color:black;'>Ubicaci&oacute;n</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Direcci&oacute;n, Municipio, Departamento, Pa&iacute;s.</span></p>
+            </td>
+            <td style="width:163.3pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:27.8pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Barrio Porfia, Villavicencio-Meta, Colombia</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:113.45pt;border:solid windowtext 1.0pt;border-top:  none;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:34.6pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Nombre del L&iacute;der de la Unidad de Gesti&oacute;n</span></strong></p>
+            </td>
+            <td style="width:127.6pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:34.6pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Maria Angelica Barrera S&aacute;nchez</span></p>
+            </td>
+            <td style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:34.6pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>NIT</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Para pa&iacute;ses diferentes a Colombia el c&oacute;digo &uacute;nico de identificaci&oacute;n tributaria.</span></p>
+            </td>
+            <td style="width:163.3pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:34.6pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>N/A</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:113.45pt;border:solid windowtext 1.0pt;border-top:  none;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:20.8pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Nombre del Responsable del Proyecto&nbsp;</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Puede ser el mismo L&iacute;der de la Unidad de Gesti&oacute;n</span></p>
+            </td>
+            <td style="width:127.6pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:20.8pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Carmen Katheryne Tumay Pulido</span></p>
+            </td>
+            <td style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:20.8pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:  "Arial",sans-serif;color:black;'>Nombre del Representante Legal</span></strong></p>
+            </td>
+            <td style="width:163.3pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:20.8pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Raquel Milena Rocha</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:113.45pt;border:solid windowtext 1.0pt;border-top:  none;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:28.45pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Correo del Responsable</span></strong></p>
+            </td>
+            <td style="width:127.6pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:28.45pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style="color:black;"><a href="mailto:Pulidok47@gmail.com"><span style='font-size:13px;font-family:  "Arial",sans-serif;'>Pulidok47@gmail.com</span></a></span><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>&nbsp;</span></p>
+            </td>
+            <td style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:28.45pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Nombre del contacto en la entidad</span></strong></p>
+            </td>
+            <td style="width:163.3pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:28.45pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Raquel Milena Rocha</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:113.45pt;border:solid windowtext 1.0pt;border-top:  none;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:35.25pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Ext. del Responsable</span></strong></p>
+            </td>
+            <td style="width:127.6pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:35.25pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Cel: 3138914148</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Cc: 1006874824</span></p>
+            </td>
+            <td style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:35.25pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:  "Arial",sans-serif;color:black;'>N&uacute;meros telef&oacute;nicos del contacto</span></strong></p>
+            </td>
+            <td style="width:163.3pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:35.25pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>3136965307</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:113.45pt;border:solid windowtext 1.0pt;border-top:  none;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:35.05pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Fecha de Env&iacute;o de la Propuesta a Mesa T&eacute;cnica Dinamizadora de Convenios</span></strong></p>
+            </td>
+            <td style="width:127.6pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:35.05pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>10 de diciembre de 2024</span></p>
+            </td>
+            <td style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:35.05pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Correo electr&oacute;nico del contacto</span></strong></p>
+            </td>
+            <td style="width:163.3pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:35.05pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style="color:black;"><a href="mailto:Liceo.mentescreativas@gmail.com"><span style='font-size:13px;font-family:"Arial",sans-serif;'>Liceo.mentescreativas@gmail.com</span></a></span><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="width:241.05pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:20.6pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></strong></p>
+            </td>
+            <td style="width:99.2pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:20.6pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:  "Arial",sans-serif;color:black;'>Tipo de entidad</span></strong></p>
+            </td>
+            <td style="width:163.3pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:   20.6pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Privada</span></strong></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;</span></strong></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;</span></strong></p>
+<div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+    <ol start="2" style="margin-bottom:0cm;list-style-type: decimal;">
+        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='line-height:107%;font-family:"Arial",sans-serif;font-size:13px;color:black;'>DIAGN&Oacute;STICO DE NECESIDADES PARA LA FORMULACI&Oacute;N DEL PROYECTO V&Iacute;A CONVENIO</span></strong></li>
+    </ol>
+</div>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:36.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;'><strong><span style='font-size:9px;font-family:"Arial",sans-serif;'>&nbsp;</span></strong></p>
+<table style="border-collapse: collapse;border: none;width: 671px;">
+    <tbody>
+        <tr>
+            <td style="width: 204.85pt;border: 1pt solid windowtext;background: white;padding: 0cm 5.4pt;height: 32.95pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><em><span style='font-size:9px;font-family:"Arial",sans-serif;color:black;'>&nbsp;</span></em></strong><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Indique si el problema que da origen al proyecto, se identific&oacute; <strong>desde la UNAD</strong> o si es una <strong>Entidad Externa</strong> la que solicita el desarrollo del proyecto, programa y/o servicio social</span></p>
+            </td>
+            <td style="width: 297.65pt;border-top: 1pt solid windowtext;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-image: initial;border-left: none;background: white;padding: 0cm 5.4pt;height: 32.95pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>UNAD</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 204.85pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;background: white;padding: 0cm 5.4pt;height: 32.95pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Problema Identificado</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>(Describa de forma clara, precisa y cuantificable el problema o necesidad social que orientar&aacute; al proyecto)</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></strong></p>
+            </td>
+            <td style="width: 297.65pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;background: rgb(251, 228, 213);padding: 0cm 5.4pt;height: 32.95pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><em><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>The school does not use technological tools in English classes, which may be causing the lack of interest of the students, since being primary courses they require more striking and dynamic elements to learn.</span></em></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 204.85pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;background: white;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Objetivo General</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>(A partir de la identificaci&oacute;n del problema o necesidad determine el objetivo general del proyecto. Consiste en poner el problema en t&eacute;rminos de acci&oacute;n positiva)</span></p>
+            </td>
+            <td style="width: 297.65pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;color:black;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>Explore the reasons behind this deficiency, analyze its impact on the English learning process, and propose viable strategies to effectively incorporate technology in this educational context.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 204.85pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;background: white;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Objetivos Espec&iacute;ficos</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>(Defina los Objetivos de Impacto del &nbsp;Proyecto, deben ser Precisos, Realistas y Medibles)</span></p>
+            </td>
+            <td style="width: 297.65pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;background: rgb(251, 228, 213);padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Identify the barriers that limit the integration of technology in English classes in a private pre-school and primary school.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Analyze the impact of the absence of technology in the English learning process, considering factors such as language acquisition, motivation, and personalization of learning.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Design pedagogical and administrative strategies to promote the effective use of technology in teaching English, adapted to the educational context of the school.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 204.85pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;background: white;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Tipo de Poblaci&oacute;n Objetivo</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>(Esta debe ser claramente definida por sus caracter&iacute;sticas socioecon&oacute;micas, de localizaci&oacute;n socioculturales, etc., para permitir una focalizaci&oacute;n adecuada. En el caso de convenios de practica o pasant&iacute;a indique las caracter&iacute;sticas requeridas de los estudiantes o entidades que se beneficiar&iacute;an del convenio)&nbsp;</span></p>
+            </td>
+            <td style="width: 297.65pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>It is a primary school. The students at the school are between 5 and 12 years old, some of them have diagnosed disabilities, but most of them do not.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 204.85pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;background: white;padding: 0cm 5.4pt;height: 42pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Caracterizaci&oacute;n del Contexto</span></strong></p>
+                <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+                    <ol style="margin-bottom:0cm;list-style-type: decimal;">
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:"Arial",sans-serif;font-size:12px;color:black;'>Indique el &aacute;rea de influencia del proyecto (Entorno geogr&aacute;fico, municipios etc.) y</span></li>
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:"Arial",sans-serif;font-size:12px;color:black;'>Describa las caracter&iacute;sticas (Situaci&oacute;n o Condici&oacute;n) especiales de la Poblaci&oacute;n Objetivo que apliquen dentro de su contexto, destacando aquellos aspectos m&aacute;s vinculados al problema que le dio origen.</span></li>
+                    </ol>
+                </div>
+            </td>
+            <td style="width: 297.65pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;background: rgb(251, 228, 213);padding: 0cm 5.4pt;height: 42pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+                    <ol style="margin-bottom:0cm;list-style-type: decimal;">
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:  "Arial",sans-serif;font-size:13px;color:black;'>&Aacute;rea de Influencia:</span></li>
+                    </ol>
+                </div>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>The school is located in the urban area of the city of Villavicencio Meta. It has two locations, one in the countryside and the main location, transportation there is very accessible, and the economy can go up to stratum 3</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+                    <ol start="2" style="margin-bottom:0cm;list-style-type: decimal;">
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:  "Arial",sans-serif;font-size:13px;color:black;'>Caracter&iacute;sticas especiales de la poblaci&oacute;n objetivo:</span></li>
+                    </ol>
+                </div>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>The school has two floors, but during the practice process it was possible to observe the lack of technological elements in the place, which causes the problem we are talking about.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-indent:35.4pt;line-height:  normal;'><span style='font-size:13px;font-family:  "Arial",sans-serif;'>&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 204.85pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;background: white;padding: 0cm 5.4pt;height: 42pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>L&iacute;nea de Base</span></strong></p>
+                <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+                    <ol style="margin-bottom:0cm;list-style-type: decimal;">
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:"Arial",sans-serif;font-size:12px;color:black;'>Indique la procedencia de los datos obtenidos que soporten la l&iacute;nea de base establecida, de fuentes como: Planes de Desarrollo Nacional, Departamental, Municipal y Sectorial, e informaci&oacute;n de indicadores territoriales. (Entidad, fecha y, si aplica, v&iacute;nculo web). Se pueden incluir fuentes internas.</span></li>
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:"Arial",sans-serif;font-size:12px;color:black;'>De acuerdo a la caracterizaci&oacute;n del contexto, y bas&aacute;ndose en los datos obtenidos, establezca la situaci&oacute;n inicial contra la cual los indicadores pueden ser medidos. Actuar&aacute; como punto de partida para el desarrollo del proyecto.</span></li>
+                    </ol>
+                </div>
+            </td>
+            <td style="width: 297.65pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 42pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><em><span style='font-size:12px;font-family:  "Arial",sans-serif;color:black;'>Despu&eacute;s de definir la L&iacute;nea de Base, elimine esta informaci&oacute;n&nbsp;</span></em></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><em><span style='font-size:12px;font-family:  "Arial",sans-serif;color:black;'>&nbsp;</span></em></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><em><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>LOS SIGUIENTES EJEMPLOS PUEDEN ORIENTARLO, NO SON OBLIGATORIOS, YA QUE CADA PROPUESTA TIENE DIFERENTES VARIABLES:</span></em></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+                    <ol style="margin-bottom:0cm;list-style-type: decimal;">
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:  "Arial",sans-serif;font-size:13px;color:black;'>Procedencia de los datos:</span></li>
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:  "Arial",sans-serif;font-size:13px;color:black;'>Municipal development plan <strong>&lsquo;Villavo somos todos&rsquo; (2024)</strong></span></li>
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:  "Arial",sans-serif;font-size:13px;color:black;'>Departamental development plan<strong>, Plan Estrat&eacute;gico de Tecnolog&iacute;as de la Informaci&oacute;n PETI (2023)</strong></span></li>
+                    </ol>
+                </div>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></strong></p>
+                <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+                    <ol start="2" style="margin-bottom:0cm;list-style-type: decimal;">
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:  "Arial",sans-serif;font-size:13px;color:black;'>Situaci&oacute;n inicial<strong>&nbsp;</strong></span></li>
+                    </ol>
+                </div>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>The Liceo Pedagogico Mentes Creativas school has not had sufficient resources to generate the technological elements that would allow it to expand its learning styles. Despite being a private school, the place where it is located is not of very high strata, so accessing technology has not been an easy path.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:18.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>However, the school is interested in obtaining more resources that allow it to access new technologies and in this way be able to reach new forms of learning and expand its visibility in the municipality.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 204.85pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;background: white;padding: 0cm 5.4pt;height: 44.55pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Pertinencia Regional</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Describa brevemente la manera en la que el proyecto responde a las exigencias y/o necesidades identificadas en el entorno, comunidad, instituci&oacute;n, regi&oacute;n o territorio que se beneficiar&aacute;.&nbsp;</span></p>
+            </td>
+            <td style="width: 297.65pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;background: rgb(251, 228, 213);padding: 0cm 5.4pt;height: 44.55pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>The project responds to the demands and needs of the municipality of Villavicencio, Meta, by addressing key challenges in basic education related to the quality and modernization of the English teaching-learning process. Villavicencio, as a growing city with a strategic role in the region, faces the need to train students with linguistic skills that allow them to access academic and employment opportunities in a globalized context.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>This project:</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+                    <ul style="margin-bottom:0cm;list-style-type: undefined;">
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:"Arial",sans-serif;font-size:13px;color:black;'>Strengthens bilingual education: By proposing strategies to integrate technology into English classes, it promotes more effective learning, aligned with national bilingualism policies and local development goals.</span></li>
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:"Arial",sans-serif;font-size:13px;color:black;'>Promotes educational innovation: It responds to the need to modernize pedagogical practices, a priority for institutions in growing municipalities that seek to be at the forefront of education.</span></li>
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:"Arial",sans-serif;font-size:13px;color:black;'>Promotes social and economic development: By improving the teaching of English, future generations are trained to access better employment and educational opportunities, contributing to the progress of the municipality.</span></li>
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:"Arial",sans-serif;font-size:13px;color:black;'>Strengthens educational equity: Addresses structural barriers in access to technological resources, a pressing need in Villavicencio, where inequalities in access to educational technologies still persist.</span></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 204.85pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;background: white;padding: 0cm 5.4pt;height: 44.55pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Concepto de Conveniencia Misional</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Especifique c&oacute;mo el proyecto se relaciona con las funciones y metas de la Unidad Misional o de Gesti&oacute;n af&iacute;n al objeto del convenio.</span></p>
+            </td>
+            <td style="width: 297.65pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 44.55pt;vertical-align: top;">
+                <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+                    <ul style="margin-bottom:0cm;list-style-type: undefined;">
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:  "Arial",sans-serif;font-size:13px;color:black;'>Promoting educational quality:</span></li>
+                    </ul>
+                </div>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>The Mission Unit aims to guarantee high-quality educational processes that respond to the needs of the context. This project seeks to address a specific problem&mdash;the lack of technological integration in the teaching of English&mdash;to improve language acquisition, a fundamental area in the comprehensive development of students.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>&nbsp;</span></p>
+                <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+                    <ul style="margin-bottom:0cm;list-style-type: undefined;">
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:"Arial",sans-serif;font-size:13px;color:black;'>Strengthening teaching skills:</span></li>
+                    </ul>
+                </div>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>One of the functions of the Mission Unit is to support the ongoing training of teachers. The project proposes to identify the barriers that teachers face when implementing technology and, as a result, suggests training strategies that enhance their pedagogical and technological skills.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>&nbsp;</span></p>
+                <div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+                    <ul style="margin-bottom:0cm;list-style-type: undefined;">
+                        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-family:"Arial",sans-serif;font-size:13px;color:black;'>Innovation in teaching-learning processes:</span></li>
+                    </ul>
+                </div>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>The incorporation of educational technologies is one of the key goals of modern institutions. This project encourages innovation by proposing strategies that combine digital tools with active methodologies, aligning with the mission of promoting transformative educational practices.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 204.85pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;background: white;padding: 0cm 5.4pt;height: 37.5pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>L&iacute;nea de Acci&oacute;n</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Seleccione la L&iacute;nea de Acci&oacute;n de Proyecci&oacute;n Social y Extensi&oacute;n Universitaria a la que pertenece el Proyecto.</span><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>&nbsp;</span></p>
+            </td>
+            <td style="width:297.65pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:37.5pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Pol&iacute;tica P&uacute;blica para la Inclusi&oacute;n Social</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 204.85pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;background: white;padding: 0cm 5.4pt;height: 37.5pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Objetivo de desarrollo Sostenible</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Por favor indique el objetivo de desarrollo Sostenible al cual le aporta este proyecto</span></p>
+            </td>
+            <td style="width:297.65pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:   37.5pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Educacion de calidad</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 204.85pt;border-top: none;border-left: 1pt solid windowtext;border-bottom: none;border-right: 1pt solid windowtext;background: white;padding: 0cm 5.4pt;height: 50.5pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Macroproyecto (MP)</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Seleccione uno o m&aacute;s Macro Proyectos del Plan de Desarrollo Institucional de la UNAD, en el que se enmarca el convenio</span></p>
+            </td>
+            <td style="width:297.65pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:50.5pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>MP2 INVESTIGACI&Oacute;N</span></p>
+                <p class="MsoNormal" align="center" style="margin-bottom:0cm;text-align:center;line-height:normal;"><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>MP3 INCLUSI&Oacute;N SOCIAL. DESARROLLO REGIONAL Y PROYECCI&Oacute;N COMUNITARIA</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:204.85pt;border:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:21.4pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Tipolog&iacute;a del convenio&nbsp;</span></strong></p>
+            </td>
+            <td style="width:297.65pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:   21.4pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:center;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>PR&Aacute;CTICA PEDAG&Oacute;GICA</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 204.85pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;background: white;padding: 0cm 5.4pt;height: 32.05pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Descuento de Matr&iacute;cula</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Si la Tipolog&iacute;a es Matricula y aplica descuento&nbsp;</span></p>
+            </td>
+            <td style="width:297.65pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;background:#FBE4D5;padding:0cm 5.4pt 0cm 5.4pt;height:32.05pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>NO APLICA</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 204.85pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;background: white;padding: 0cm 5.4pt;height: 34.7pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Subsidio de Matr&iacute;cula</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Si la topolog&iacute;a es Matricula y aplica subsidio<span style="background:yellow;">&nbsp;</span></span></p>
+            </td>
+            <td style="width:297.65pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:   34.7pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>NO APLICA</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="width: 204.85pt;border-top: none;border-left: 1pt solid windowtext;border-bottom: none;border-right: 1pt solid windowtext;background: white;padding: 0cm 5.4pt;height: 17pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Modo de Financiaci&oacute;n y Valor</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>(Aplica si el Proyecto es Financiado o Cofinanciado, se debe <strong>anexar el presupuesto&nbsp;</strong>a la Presente Propuesta)</span></p>
+            </td>
+            <td style="width: 297.65pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;background: rgb(251, 228, 213);padding: 0cm 5.4pt;height: 17pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Valor:&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>0</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 297.65pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 17pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Modo de Financiaci&oacute;n: Sin Recursos</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 204.85pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;background: white;padding: 0cm 5.4pt;height: 17pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:right;line-height:normal;'><strong><em><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></em></strong></p>
+            </td>
+            <td style="width: 297.65pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;background: rgb(251, 228, 213);padding: 0cm 5.4pt;height: 17pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Tiene Contrataci&oacute;n Derivada: <strong>SI &nbsp;<span lang="EN-US" style='font-family:"MS Gothic";'>☐</span>&nbsp; &nbsp; &nbsp; NO <span lang="EN-US" style='font-family:"MS Gothic";'>☒</span></strong></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+<div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+    <ol start="3" style="margin-bottom:0cm;list-style-type: decimal;">
+        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='line-height:107%;font-family:"Arial",sans-serif;font-size:13px;color:black;'>PROYECCI&Oacute;N DE IMPACTO SOCIAL</span></strong></li>
+    </ol>
+</div>
+<table style="border-collapse: collapse;border: none;width: 671px;">
+    <tbody>
+        <tr>
+            <td style="width: 205.6pt;border: 1pt solid windowtext;background: white;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Resultados Esperados</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>(Tenga en cuenta que deben ser alcanzables en el tiempo establecido y estar orientados al cumplimiento del Objetivo General y los Objetivos Espec&iacute;ficos)</span></p>
+            </td>
+            <td style="width:297.65pt;border:solid windowtext 1.0pt;border-left:  none;background:white;padding:0cm 5.4pt 0cm 5.4pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Identification of key barriers, such as lack of teacher training, resistance to pedagogical change, or absence of clear institutional policies.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Evidence on how the absence of technology limits interaction, motivation, and access to authentic materials in English language learning.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Proposals for strategies, such as teacher training programs, acquisition of technological resources, and creation of plans for gradual technology integration.&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 205.6pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;background: white;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Indicadores de Impacto</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Defina uno o varios indicadores que den cuenta precisa y medible de los cambios proyectados al comparar la situaci&oacute;n inicial de la poblaci&oacute;n beneficiada (<strong>l&iacute;nea de base</strong>) con la situaci&oacute;n deseada al momento de la finalizaci&oacute;n del proyecto.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+            </td>
+            <td style="width: 297.65pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;background: rgb(251, 228, 213);padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>1. Proportion of teachers trained in the use of educational technologies:</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>- Initial situation: 0% of teachers have received specific training in technology integration.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>- Target: At least 80% of English teachers will have participated in a training program on the use of technological tools for teaching.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>2. Quantity of technological resources acquired and implemented:</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>- Initial situation: Limited technological resources in the classroom, with less than 2 devices available per classroom.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>- Target: 50% increase in the availability of functional technological devices, such as tablets, projectors, and educational software.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>3. Number of pedagogical strategies that integrate technology:</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>- Initial situation: Little or no implementation of technology-based methodologies.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>- Target: At least 5 new pedagogical strategies based on the use of technology implemented in grades preschool through 5.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>4. Level of satisfaction of students and teachers regarding the use of technology in classes:</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>- Initial situation: Low satisfaction due to the lack of technological resources.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>- Goal: 30% increase in satisfaction levels measured through surveys applied</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>before and after the project.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>5. Visibility of the school in the municipality:</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>- Initial situation: Low perception of educational innovation in the local community.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>- Goal: Participation in at least two local events or initiatives where the technological and methodological advances of the school are presented.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>6. Academic achievement rate in English:</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>- Initial situation: Limited average performance levels in English according to internal assessments.</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>- Goal: 20% increase in the average scores of students&apos; English assessments at the end of the project.</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:205.6pt;border:solid windowtext 1.0pt;border-top:  none;background:white;padding:0cm 5.4pt 0cm 5.4pt;height:19.9pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>N&uacute;mero de Beneficiarios <em>proyectados</em> <em>o esperados&nbsp;</em>durante la ejecuci&oacute;n del convenio</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;line-height:  normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>Aplica para todos los convenios</span></p>
+            </td>
+            <td style="width:297.65pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:19.9pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>It depends of the number of the students to the next year, approximately 100 students or more.</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style='font-size:13px;font-family:"Arial",sans-serif;'>&nbsp;</span></p>
+<div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+    <ol start="4" style="margin-bottom:0cm;list-style-type: decimal;">
+        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='line-height:107%;font-family:"Arial",sans-serif;font-size:13px;color:black;'>PROGRAMACI&Oacute;N DE SEGUIMIENTO Y EVALUACI&Oacute;N</span></strong></li>
+    </ol>
+</div>
+<table style="border-collapse: collapse;border: none;width: 671px;">
+    <tbody>
+        <tr>
+            <td style="width:242.25pt;border:solid windowtext 1.0pt;background:white;padding:0cm 5.4pt 0cm 5.4pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:left;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>Duraci&oacute;n</span></strong></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:left;line-height:normal;'><span style='font-size:12px;font-family:"Arial",sans-serif;color:black;'>N/A</span></p>
+            </td>
+            <td style="width:119.25pt;border:solid windowtext 1.0pt;border-left:  none;background:white;padding:0cm 5.4pt 0cm 5.4pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>FECHA DE INICIO</span></strong></p>
+                <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal;"><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>10/12/2024</span></strong></p>
+            </td>
+            <td style="width:5.0cm;border:solid windowtext 1.0pt;border-left:  none;background:white;padding:0cm 5.4pt 0cm 5.4pt;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;line-height:normal;'><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>FECHA DE FINALIZACI&Oacute;N</span></strong></p>
+                <p class="MsoNormal" style="margin-bottom:0cm;line-height:normal;"><strong><span style='font-size:13px;font-family:"Arial",sans-serif;color:black;'>10/12/2024</span></strong></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;</span></strong></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;</span></strong></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;</span></strong></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;</span></strong></p>
+<div style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
+    <ol start="5" style="margin-bottom:0cm;list-style-type: decimal;">
+        <li style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='line-height:107%;font-family:"Arial",sans-serif;font-size:13px;color:black;'>FIRMA</span></strong></li>
+    </ol>
+</div>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;color:black;'>La presente Propuesta se presenta para consideraci&oacute;n y aprobaci&oacute;n de la Mesa T&eacute;cnica Dinamizadora de Convenios de la Universidad Nacional Abierta y a Distancia - UNAD</span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style="margin-left:0px;margin-top:25px;width:178px;height:49px;"><img src="data:image/jpeg;base64,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" alt="TextoDescripción generada automáticamente" width="407" height="112"></span></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>&nbsp;</span></strong></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;'>________________________________________________</span></strong></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;color:black;'>Carmen Katheryne Tumay Pulido</span></strong></p>
+
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;'><strong><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;color:black;'>Reflection</span></strong></p>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:8.0pt;margin-left:0cm;font-size:11.0pt;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-size:13px;line-height:107%;font-family:"Arial",sans-serif;color:black;'>
+    During my internship I have been able to learn many interesting things. At first, I didn't 
+    understand much and I was afraid of making mistakes, but as the semesters went by I have 
+    managed to acquire better teaching skills. This has allowed me to connect better with students and 
+    identify their strengths more quickly. On the other hand, this past semester I was able to see how 
+    important technology has become in our world. That is why we must make proper use of it in our 
+    English classes. In this way we can come up with new strategies for students, taking advantage of 
+    the fact that they are now fascinated by technology.
+    In conclusion, I would like to improve and try new technological tools to give my students 
+    other visions of learning English, promote what is striking in order to capture their attention by 
+    making them part of our technology</span></p>        
+    </div>
+    
+
+    <div class="floating-images">
+        <img src="imagen1.jpeg" alt="Flotante 1" class="left">
+        <img src="imagen2.jpeg" alt="Flotante 2" class="right">
+        <img src="imagen3.jpeg" alt="Flotante 5" class="extra3">
+        <img src="imagen4.jpeg" alt="Flotante 6" class="extra4">
+    </div>
+    <a href="LESSON PLAN.html" class="custom-button">Lesson Plans</a>
+</body>
+</html>
